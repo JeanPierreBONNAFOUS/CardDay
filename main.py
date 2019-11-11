@@ -1,12 +1,11 @@
-# Une liste de tuple
+# Traitement CardDay LOG
 # Ce script est sous controle de version
-from Ext import a, augment
-import logStat
+from logStat import E as logFile
 
 def countX(l):
-  L=l.split(':')
-  return L[1].count('X')
+  L=l.count('X')
+  return L
 
-for i in logStat.E:
+for i in logFile:
   h=countX(i)
   print("{0:02d}".format(h))
