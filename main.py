@@ -22,3 +22,4 @@ for i in logFile:
   print("{0}{1:d}%".format(i[:3],p))
 
 fileInfo('IR_LOG314.txt')
+# ZUT
