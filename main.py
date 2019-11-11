@@ -1,22 +1,12 @@
 # Une liste de tuple
 # Ce script est sous controle de version
 from Ext import a, augment
-# On charge le fichier Evt.txt
-E=[]
-with open("Evt.txt","r") as fichier:
-  E=fichier.readlines()
+import logStat
 
-print(E[-1])
-print(a)
-print(augment(2))
+def countX(l):
+  L=l.split(':')
+  return L[1].count('X')
 
-M="123456"
-j=0
-print("i,j,M")
-# on joue avec la focntion %
-for i in range(10):
-  if i%len(M) ==0:
-    j=0
-  else:
-    j+=1
-  print(i,j,M[j])
+for i in logStat.E:
+  h=countX(i)
+  print("{0:02d}".format(h))
