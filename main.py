@@ -6,6 +6,11 @@ def countX(l):
   L=l.count('X')
   return L
 
+def pourcentage(x):
+  return int(x/12*100)
+
 for i in logFile:
   h=countX(i)
-  print("{0:02d}".format(h))
+  p=pourcentage(h)
+  print("{0}{1:d}%".format(i[:3],p))
+
