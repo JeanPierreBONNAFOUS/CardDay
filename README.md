@@ -7,3 +7,4 @@ En fait j'apprends à la fois Python et Git.
 * Et on peut tester sur plusieurs dépot.
 * De quoi vraiment mettre le souk! :-)
 Sur la Branche OSSTAT depuis REPL.it
+Avec la bénédiction de PYANY
