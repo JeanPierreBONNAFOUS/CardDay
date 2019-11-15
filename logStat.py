@@ -1,3 +1,3 @@
 E=[]
-with open("IR_LOG314.txt","r") as fichier:
+with open("IR_LOG081.txt","r") as fichier:
   E=fichier.readlines()
