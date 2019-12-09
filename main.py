@@ -2,6 +2,7 @@
 # Ce script est sous controle de version
 from logStat import E as logFile
 import os, time
+import pdb
 
 def fileInfo(f):
   I=os.stat(f)
@@ -17,6 +18,7 @@ def pourcentage(x):
   return int(x/12*100)
 
 for i in logFile:
+  pdb.set_trace()
   h=countX(i)
   p=pourcentage(h)
   print("{0}{1:d}%".format(i[:3],p))
