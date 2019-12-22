@@ -8,3 +8,4 @@ En fait j'apprends à la fois Python et Git.
 * De quoi vraiment mettre le souk! :-)
 Sur la Branche OSSTAT depuis REPL.it
 Avec la bénédiction de PYANY
+On travaille avec KATACODA dans un env Python 
